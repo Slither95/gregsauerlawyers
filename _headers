@@ -1,6 +1,21 @@
 /*.html
   Content-Type: text/html; charset=utf-8
 
+/
+  Content-Type: text/html; charset=utf-8
+
+/contact
+  Content-Type: text/html; charset=utf-8
+
+/about
+  Content-Type: text/html; charset=utf-8
+
+/practice-areas
+  Content-Type: text/html; charset=utf-8
+
+/testimonials
+  Content-Type: text/html; charset=utf-8
+
 /assets/css/*
   Content-Type: text/css; charset=utf-8
 
