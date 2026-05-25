@@ -14,7 +14,7 @@
     { href: "about.html", label: "About", page: "about" },
     { href: "practice-areas.html", label: "Practice Areas", page: "practice-areas" },
     { href: "testimonials.html", label: "Testimonials", page: "testimonials" },
-    { href: "contact.html", label: "Contact", page: "contact" },
+    { href: "contact-page.html", label: "Contact", page: "contact" },
   ];
 
   function currentPage() {
@@ -69,7 +69,7 @@
     <nav class="hidden md:flex items-center gap-6 text-sm font-medium" aria-label="Main navigation">
       ${desktopNav}
     </nav>
-    <a href="contact.html" class="hidden sm:inline-flex items-center px-4 py-2 rounded-lg bg-brand-blue text-white text-sm font-semibold hover:bg-blue-800 transition-colors shadow-sm">
+    <a href="contact-page.html" class="hidden sm:inline-flex items-center px-4 py-2 rounded-lg bg-brand-blue text-white text-sm font-semibold hover:bg-blue-800 transition-colors shadow-sm">
       Schedule Consultation
     </a>
     <button type="button" id="menu-toggle" class="md:hidden p-2 rounded-lg text-brand-navy hover:bg-gray-100 transition-colors" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
@@ -80,7 +80,7 @@
     <div class="max-w-6xl mx-auto px-4 py-3 flex flex-col gap-1 text-sm font-medium">
       ${navLinks(active, true)}
       <a href="tel:${PHONE_TEL}" class="phone-cta py-2 font-bold text-brand-blue text-lg">${PHONE}</a>
-      <a href="contact.html" class="mt-2 inline-flex justify-center px-4 py-2 rounded-lg bg-brand-blue text-white font-semibold hover:bg-blue-800 transition-colors">Schedule Consultation</a>
+      <a href="contact-page.html" class="mt-2 inline-flex justify-center px-4 py-2 rounded-lg bg-brand-blue text-white font-semibold hover:bg-blue-800 transition-colors">Schedule Consultation</a>
     </div>
   </nav>
 </header>`;
