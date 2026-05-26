@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found | Sauer Law LLC</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'brand-navy': '#0A2540',
+            'brand-blue': '#1E40AF',
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="min-h-screen flex flex-col bg-gray-50 text-gray-800 antialiased">
+  <div id="site-header"></div>
+  <main class="flex-grow flex items-center justify-center px-4 py-16">
+    <div class="text-center max-w-lg">
+      <h1 class="text-4xl font-bold text-brand-navy">Page Not Found</h1>
+      <p class="mt-4 text-gray-600">Sorry, that page does not exist.</p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="index.html" class="px-6 py-3 rounded-lg bg-brand-blue text-white font-semibold hover:bg-blue-800 transition-colors">Home</a>
+        <a href="contact.html" class="px-6 py-3 rounded-lg border border-brand-blue text-brand-blue font-semibold hover:bg-blue-50 transition-colors">Contact Us</a>
+      </div>
+    </div>
+  </main>
+  <div id="site-footer"></div>
+  <script src="assets/js/layout.js" defer></script>
+</body>
+</html>
