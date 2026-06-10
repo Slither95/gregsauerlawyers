@@ -2,10 +2,10 @@
  * Shared header, footer, and navigation active-state for Sauer Law LLC.
  */
 (function () {
-  const PHONE = "(513) 519-1096";
-  const PHONE_TEL = "+15135191096";
+  const PHONE = "(513) 375-1769";
+  const PHONE_TEL = "+15133751769";
   const FIRM = "Sauer Law LLC";
-  const ATTORNEY = "Greg Sauer, Attorney at Law";
+  const ATTORNEY = "Greg Sauer - Estate Planning Attorney Since 1986";
   const DISCLAIMER =
     "The text, photos, descriptions, and other material on this web site are presented for informational purposes only and should not be considered or interpreted as legal advice. You should consult a qualified licensed attorney for legal advice specific to your individual situation. No attorney-client relationship is offered or created by or between Gregory J. Sauer, Attorneys at Law";
 

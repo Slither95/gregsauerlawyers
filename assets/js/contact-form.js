@@ -24,7 +24,7 @@
     if (needsSetup) {
       if (errorMsg) {
         errorMsg.textContent =
-          "Form delivery is not configured yet. Please call (513) 519-1096 or email greg@sauerlawllc.com.";
+          "Form delivery is not configured yet. Please call (513) 375-1769 or email greg@sauerlawllc.com.";
         errorMsg.classList.remove("hidden");
       }
       return;
@@ -61,7 +61,7 @@
       if (errorMsg) {
         errorMsg.textContent =
           err.message ||
-          "Something went wrong. Please try again or call (513) 519-1096.";
+          "Something went wrong. Please try again or call (513) 375-1769.";
         errorMsg.classList.remove("hidden");
       }
     } finally {
