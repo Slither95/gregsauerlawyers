@@ -104,7 +104,7 @@
         <a href="tel:${PHONE_TEL}" class="phone-cta text-white text-xl font-bold hover:text-blue-200 transition-colors">${PHONE}</a>
       </p>
       <p>
-        <a href="mailto:greg@sauerlawllc.com" class="hover:text-white transition-colors">greg@sauerlawllc.com</a>
+        <a href="mailto:greg@gregsauerlawyers.com" class="hover:text-white transition-colors">greg@gregsauerlawyers.com</a>
       </p>
     </div>
     <div>
